@@ -33,3 +33,6 @@ def provice_area(request, num):
     # 返回的是当前页的下一页的页码
     # areas.next_page_number()
     return render(request, "area/provice_area.html", {"areas": areas})
+
+def aimi():
+    print("我是真的爱你！")
